@@ -516,8 +516,107 @@ footer {
     box-shadow: 0 0 16px rgba(77, 166, 255, 0.8);
   }
 }
+/* ===============================
+   SMALL DEVICES (PHONES)
+   max-width: 480px
+================================ */
+@media (max-width: 480px) {
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  /* Hero Section */
+  #home {
+    padding: 70px 15px;
+  }
+
+  #home h1 {
+    font-size: 2rem;
+  }
+
+  #home p {
+    font-size: 1rem;
+  }
+
+  /* About Section */
+  .about-hero {
+    padding: 70px 15px;
+  }
+
+  .about-hero h2 {
+    font-size: 2rem;
+  }
+
+  .about-subtitle {
+    font-size: 1rem;
+  }
+
+  /* Skills Section */
+  .skills-hero {
+    padding: 70px 15px;
+  }
+
+  .skills-hero h2 {
+    font-size: 2rem;
+  }
+
+  .skills-tags {
+    gap: 10px;
+  }
+
+  .skill-tag {
+    font-size: 0.85rem;
+    padding: 8px 14px;
+  }
+
+  /* Services Section */
+  .service-hero {
+    padding: 70px 15px;
+  }
+
+  .service-hero h2 {
+    font-size: 2rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Contact Section */
+  .contact-enhanced {
+    padding: 70px 15px;
+  }
+
+  .contact-enhanced h2 {
+    font-size: 2rem;
+  }
+
+  .contact-form {
+    gap: 15px;
+  }
+
+  /* Footer */
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
 
 
 
     
+
 
