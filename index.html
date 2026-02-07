@@ -7,7 +7,8 @@
   <title>Mrinal Kumar | Full Stack Developer</title>
 
   <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
@@ -18,7 +19,7 @@
 
 <body>
 
-  <!-- Animated Background -->
+  <!-- BACKGROUND BLOBS -->
   <div class="bg-blobs">
     <span></span>
     <span></span>
@@ -40,48 +41,88 @@
   </header>
 
   <!-- HERO -->
-  <section id="home" class="mk">
-    <h1>Hello, I'm <span>Mrinal Kumar</span></h1>
-    <p>Full Stack Developer • MERN • UI/UX</p>
-      <a href="MrinalKumar_InternshalaResume (5).pdf" download>Download CV</a>
+  <section id="home" class="mk hero-space">
+    <div class="hero-left">
+      <div class="hero-line"></div>
+
+      <div class="hero-content">
+        <p class="hero-hi">Hi!</p>
+        <h1>I’m <span>Mrinal Kumar</span></h1>
+        <p class="hero-role">Full Stack Developer</p>
+
+        <div class="hero-buttons">
+          <a href="#services" class="btn-work">Services</a>
+          <a href="#contact" class="btn-contact">Contact</a>
+          <a href="MrinalKumar_InternshalaResume (5).pdf" class="btn-resume" download>
+            Download Resume
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <span>Follow me here</span>
+          <div class="social-icons">
+            <a href="https://github.com/mrinalkumar2002"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mrinal-kumar-148b5833b/"><i class="fab fa-linkedin"></i></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="hero-right">
+    <div class="hero-svg">
+      <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#facc15" />
+            <stop offset="100%" stop-color="#22c55e" />
+          </linearGradient>
+        </defs>
+  
+        <circle cx="300" cy="300" r="220" fill="url(#g)" opacity="0.18" />
+  
+        <rect x="160" y="220" width="280" height="170" rx="20" fill="#111827" />
+        <rect x="190" y="255" width="220" height="14" rx="7" fill="#facc15" />
+        <rect x="190" y="285" width="180" height="14" rx="7" fill="#22c55e" />
+        <rect x="190" y="315" width="140" height="14" rx="7" fill="#7c3aed" />
+  
+        <text x="300" y="420" text-anchor="middle" fill="#c7d2fe" font-size="18" font-family="Poppins, sans-serif">
+          Developer Mode
+        </text>
+      </svg>
+    </div>
+  </div>
+
+
   </section>
 
   <!-- ABOUT -->
   <section id="about" class="about-hero">
     <div class="about-container">
       <h2>About Me</h2>
-      <p class="about-subtitle">
-        Turning ideas into scalable digital experiences
-      </p>
+      <p class="about-subtitle">Turning ideas into scalable digital experiences</p>
       <p>
-        I am a passionate Full Stack Developer specializing in building
-        responsive, high-performance web applications using
-        HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB.
-        I love crafting clean UI and scalable backend systems.
+        I am a Full Stack Developer specializing in MERN stack,
+        focused on performance, clean UI, and scalable backend systems.
       </p>
       <a href="#contact" class="btn-about">Let's Work Together</a>
     </div>
   </section>
 
   <!-- SKILLS -->
-  <section id="skills" class="skills-hero">
-    <div class="skills-container">
-      <h2>My Skills</h2>
-      <p class="skills-subtitle">
-        Technologies I use to build modern applications
-      </p>
+  <section id="skills" class="skills-dark">
+    <h2>Skills</h2>
+    <p class="skills-subtitle">Technologies I work with</p>
 
-      <div class="skills-tags">
-        <span class="skill-tag">HTML5</span>
-        <span class="skill-tag">CSS3</span>
-        <span class="skill-tag">JavaScript</span>
-        <span class="skill-tag">React.js</span>
-        <span class="skill-tag">Node.js</span>
-        <span class="skill-tag">Express.js</span>
-        <span class="skill-tag">MongoDB</span>
-        <span class="skill-tag">REST APIs</span>
-        <span class="skill-tag">UI/UX Design</span>
-      </div>
+    <div class="skills-icons">
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-css3-alt"></i>
+      <i class="fab fa-js"></i>
+      <i class="fab fa-react"></i>
+      <i class="fab fa-node-js"></i>
+      <i class="fas fa-database"></i>
+      <i class="fab fa-git-alt"></i>
+      <i class="fab fa-github"></i>
     </div>
   </section>
 
@@ -89,33 +130,25 @@
   <section id="services" class="service-hero">
     <div class="services-container">
       <h2>My Services</h2>
-      <p class="service-intro">
-        Professional solutions tailored for your business
-      </p>
+      <p class="service-intro">Professional solutions tailored for your business</p>
 
       <div class="services-grid">
         <div class="service-box">
-          <div class="icon"><i class="fas fa-mobile-alt"></i></div>
-          <h3>App Development</h3>
-          <p>
-            High-performance mobile-friendly applications using modern tech.
-          </p>
+          <div class="icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Web Development</h3>
+          <p>Modern, scalable, responsive websites.</p>
         </div>
 
         <div class="service-box">
-          <div class="icon"><i class="fas fa-laptop-code"></i></div>
-          <h3>Web Development</h3>
-          <p>
-            Responsive websites with clean UI and scalable architecture.
-          </p>
+          <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>App Development</h3>
+          <p>High-performance applications.</p>
         </div>
 
         <div class="service-box">
           <div class="icon"><i class="fas fa-palette"></i></div>
           <h3>UI / UX Design</h3>
-          <p>
-            Elegant, user-focused interfaces that improve engagement.
-          </p>
+          <p>User-focused design systems.</p>
         </div>
       </div>
     </div>
@@ -125,43 +158,25 @@
   <section id="contact" class="contact-enhanced">
     <div class="contact-container">
       <h2>Contact Me</h2>
-      <p class="contact-subtitle">
-        Let's build something amazing together
-      </p>
+      <p class="contact-subtitle">Let's build something amazing together</p>
 
       <form class="contact-form">
-        <div class="form-group">
-          <input type="text" placeholder="Your Name" required />
-        </div>
-
-        <div class="form-group">
-          <input type="email" placeholder="Your Email" required />
-        </div>
-
-        <div class="form-group">
-          <textarea rows="5" placeholder="Your Message" required></textarea>
-        </div>
-
-        <button type="submit" class="contact-button">
-          Send Message
-        </button>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="contact-button">Send Message</button>
       </form>
-
-      <div class="contact-info">
-        <p><i class="fas fa-phone"></i> +91 9410027144</p>
-        <p><i class="fas fa-envelope"></i> mrinalkumar94100@gmail.com</p>
-      </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer>
-    <p>© 2025 Mrinal Kumar </p>
+    <p>© 2025 Mrinal Kumar</p>
   </footer>
 
 </body>
 
 </html>
+
 
 
 
